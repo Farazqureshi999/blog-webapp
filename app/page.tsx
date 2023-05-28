@@ -1,9 +1,11 @@
-import Image from 'next/image'
+'use client'
+
+import AddPost from "./components/AddPost"
 
 export default function Home() {
   return (
-    <div>
-      hello world
-    </div>
+    <main>
+      <AddPost/>
+    </main>
   )
 }
